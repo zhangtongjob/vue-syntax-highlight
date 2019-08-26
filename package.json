@@ -1,0 +1,31 @@
+{
+  "name": "vue-syntax-highlight",
+  "version": "0.1.6",
+  "description": "代码高亮，基于highlightjs封装的VUE组件",
+  "keyword": "vue vuejs syntax highlight highlightjs vue-syntax-highlight",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib --dest lib packages/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "lib/vue-syntax-highlight.common.js",
+  "dependencies": {
+    "core-js": "^2.6.5",
+    "vue": "^2.6.10",
+    "highlight.js": "^9.15.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.11.0",
+    "@vue/cli-plugin-eslint": "^3.11.0",
+    "@vue/cli-service": "^3.11.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
